@@ -16,5 +16,6 @@ class LicenseActivity : AppCompatActivity() {
         binding = ActivityLicenseBinding.inflate(layoutInflater)
         binding.title.setBackListener(null, this)
         setContentView(binding.root)
+        binding.scrollView.requestFocus()
     }
 }
